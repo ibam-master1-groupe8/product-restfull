@@ -17,7 +17,7 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
 - PostgreSQL pour la base de données
 - Docker pour containeurisation
 
-## Features
+## Fonctionnalités
 - Operations CRUD de produits
 - RESTful API avec reponses JSON
 - Monitoring avec prometheus
@@ -39,7 +39,7 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
    ```bash
    mvn clean install
    ```
-## Usage
+## Utilisation
 
 Pour exécuter l'application, il faut:
 
@@ -52,7 +52,7 @@ docker-compose up -d
 mvn spring-boot:run
 ```
 
-## Technologies Used
+## Technologies utilisées
 - Spring Boot
 - Spring Data JPA
 - Maven
