@@ -11,7 +11,7 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
   - [Utilisation](#usage)
   - [Technologies utilisées](#technologies-used)
 
-## Prerequisites
+## Prérequis
 - Java 17 ou version supérieure
 - Maven 3.9.8
 - PostgreSQL pour la base de données
