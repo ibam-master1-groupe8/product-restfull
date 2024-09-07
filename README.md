@@ -44,12 +44,13 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
 Pour exécuter l'application, il faut:
 
 1. **Confihuration de prometheus**
-Modifier l'adresse IP par la votre dans le fichier `prometheus.yml` dans le dossier tools/prometheus
+  - Modifier l'adresse IP par la votre dans le fichier `prometheus.yml` dans le dossier tools/prometheus
 
 2. **Démarrer l'application**
 ```bash
 docker-compose up -d
 mvn spring-boot:run
+```
 
 ## Technologies Used
 - Spring Boot
