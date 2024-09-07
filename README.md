@@ -5,11 +5,11 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
 ## Sommaire
 - [Application RESTful avec Sprint Boot](#application-restful-avec-sprint-boot)
   - [Sommaire](#sommaire)
-  - [Prérequis](#prerequisites)
-  - [Fonctionnalités](#features)
+  - [Prerequisites](#prerequisites)
+  - [Features](#features)
   - [Installation](#installation)
-  - [Utilisation](#usage)
-  - [Technologies utilisées](#technologies-used)
+  - [Usage](#usage)
+  - [Technologies Used](#technologies-used)
 
 ## Prerequisites
 - Java 17 ou version supérieure
@@ -55,6 +55,7 @@ mvn spring-boot:run
 ## Technologies Used
 - Spring Boot
 - Spring Data JPA
+- PostgreSQL
 - Maven
 - Docker Desktop
 - prometheus
