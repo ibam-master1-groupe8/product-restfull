@@ -8,6 +8,7 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
   - [Prerequisites](#prerequisites)
   - [Features](#features)
   - [Installation](#installation)
+  - [Usage](#usage)
   - [Technologies Used](#technologies-used)
 
 ## Prerequisites
@@ -29,14 +30,26 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
    cd product-restfull
    ```
 
-2. **Compiler le projet:**
+
+2. **Mettre en place la base de données:**
+   - Créer une nouvelle base de données.
+   - Modifier le fichier `application.properties` avec les identifiants de la base de données.
+
+3. **Compiler le projet:**
    ```bash
    mvn clean install
    ```
+## Usage
 
-3. **Mise en place de la base de données:**
-   - Créer une nouvelle base de données.
-   - Modifier le fichier `application.properties` avec les identifiants de la base de données.
+Pour exécuter l'application, il faut:
+
+1. **Confihuration de prometheus**
+Modifier l'adresse IP par la votre dans le fichier `prometheus.yml` dans le dossier tools/prometheus
+
+2. **Démarrer l'application**
+```bash
+docker-compose up -d
+mvn spring-boot:run
 
 ## Technologies Used
 - Spring Boot
