@@ -8,7 +8,6 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
   - [Prerequisites](#prerequisites)
   - [Features](#features)
   - [Installation](#installation)
-    - [10. **Technologies Used**](#10-technologies-used)
   - [Technologies Used](#technologies-used)
 
 ## Prerequisites
@@ -27,7 +26,7 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
 1. **Cloner le repository depuis github:**
    ```bash
    git clone https://github.com/ibam-master1-groupe8/product-restfull.git
-   cd your-repository
+   cd product-restfull
    ```
 
 2. **Compiler le projet:**
@@ -39,10 +38,6 @@ Il s'agit d'une application Spring Boot qui fournit une API RESTful pour gérer 
    - Créer une nouvelle base de données.
    - Modifier le fichier `application.properties` avec les identifiants de la base de données.
 
-### 10. **Technologies Used**
-- Liste des technologies utilisées dans ce projet.
-
-```markdown
 ## Technologies Used
 - Spring Boot
 - Spring Data JPA
